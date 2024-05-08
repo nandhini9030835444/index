@@ -1,35 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-<link rel="stylesheet" href="style.css"/>
-        <title>landing page by Nandini</title>
-    </head>
-    <body>
-        <header class="header">
-            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Paradise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Nand!n! Paradise</h1>
             <nav>
-                <div class="nav_bar">
-                    <div class="logo">
-                        <a href="#"><img src="logo.jpg" alt="logo"></a>
-                    </div>
-                    <div class="nav__menu__btn" id="menu-btn">
-                        <i class="ri-menu-line"></i>
-                    </div>
-                </div>
-                <ul class="nav__links" id="nav-links">
-                <li><a href ="#home">home</a></li>
-                <li><a href ="#about">about</a></li>
-                <li><a href ="#services">sevices</a></li>
-                <li><a href ="#explore">explore</a></li>
-                <li><a href ="#contact">contact</a></li>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <button class="btn nav__btn">book now</button>
             </nav>
-        </header>
-    </body>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <h2>Welcome to Nand!n! Paradise</h2>
+            <p>Experience luxury and comfort like never before.</p>
+            <a href="rooms.html" class="cta-button">View Rooms</a>
+        </div>
+    </section>
+
+    <!-- Room Listing Page -->
+    <section id="rooms" class="rooms-section">
+        <div class="container">
+            <h2>Our Rooms</h2>
+            <div class="room">
+                <img src="C:\Users\ajay\Desktop\r1.jpg" width =150, height=150, alt="Room 1">
+                <h3>Deluxe Room</h3>
+                <p>Enjoy a spacious and luxurious stay.</p>
+                <a href="room1.html" class="cta-button">Details</a>
+            </div>
+            <div class="room">
+                <img src="C:\Users\ajay\Desktop\r2.jpeg"  width=150, height=150, alt="Room 2">
+                <h3>Executive Suite</h3>
+                <p>Experience elegance and sophistication.</p>
+                <a href="room2.html" class="cta-button">Details</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Page -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-images">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>Contact us: info@hotelparadise.com</p>
+        </div>
+    </footer>
+</body>
 </html>
+
